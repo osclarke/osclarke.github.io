@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="charlie.everett.print@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/owenstewartc">github.com/owenstewartc</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>{{ page.title }}</title>
+      <link rel="stylesheet" href="/assets/css/styles.css">
+   </head>
+   <body>
+      <div class="page">
+         <div class="header">
+            <h1>Owen Stewart C</h1>
+         </div>
+         <div class="nav">
+            {% include navigation.html %}
+         </div>
+         <div class="content">
+            {{content}}
+         </div>
+         <div class="footer">
+            <footer>
+               <ul>
+                  <li><a href="mailto:owen.Stewart.c@gmail.com">email</a></li>
+                  <li><a href="https://github.com/owenstewartc">gitHub</a></li>
+               </ul>
+            </footer>
+         </div>
+      </div>
+   </body>
+</html>
