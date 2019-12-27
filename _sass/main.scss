@@ -30,7 +30,7 @@ div {
    clear: left;
 }
 
-@media screen and (min-width: 828px) {
+@media screen and (max-width: 828px) {
    body {
       margin: 60px auto;
       margin-top: 0px;
