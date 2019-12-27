@@ -33,7 +33,7 @@ body {
    background-color: lightblue;
 }
 
-@media only screen and (orientation: portrait) {
+@media (max-width: 828px) {
    body {
       border: 0px;
       margin: 0px;
