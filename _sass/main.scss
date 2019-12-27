@@ -4,6 +4,11 @@
    font-family: "Times New Roman", Times, serif;
 }
 
+@viewport {
+   width: device-width;
+   zoom: 1.0;
+}
+
 a {
    text-decoration: none;
    color: green;
@@ -25,15 +30,7 @@ div {
    clear: left;
 }
 
-body {
-   border: 0px;
-   margin: 0px;
-   padding: 0px;
-   width: 100%;
-   background-color: white;
-}
-
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 828px) {
    body {
       margin: 60px auto;
       margin-top: 0px;
@@ -45,6 +42,14 @@ body {
    .page {
       min-height: 50vh;
    }
+}
+
+body {
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   background-color: white;
 }
 
 .page {
