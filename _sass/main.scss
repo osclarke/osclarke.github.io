@@ -30,7 +30,8 @@ div {
    clear: left;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 812px) and (orientation: landscape)
+and (-webkit-device-pixel-ratio : 3) {
    body {
       border: 0px;
       margin: 0px;
