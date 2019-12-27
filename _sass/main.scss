@@ -30,27 +30,22 @@ div {
    clear: left;
 }
 
-@media screen and (max-device-width: 812px) and (orientation: landscape)
-and (-webkit-device-pixel-ratio : 3) {
+@media screen and (min-width: 828px {
    body {
-      border: 0px;
-      margin: 0px;
-      padding: 0px;
-      width: 100%;
-      background-color: white;
-   }
-
-   .page {
-      min-height: 50vh;
+      margin: 60px auto;
+      margin-top: 0px;
+      padding-top: 0px;
+      width: 70%;
+      background-color: lightblue;
    }
 }
 
 body {
-   margin: 60px auto;
-   margin-top: 0px;
-   padding-top: 0px;
-   width: 70%;
-   background-color: lightblue;
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   background-color: white;
 }
 
 .page {
