@@ -26,20 +26,20 @@ div {
 }
 
 body {
-   margin: 60px auto;
-   margin-top: 0px;
-   padding-top: 0px;
-   width: 70%;
-   background-color: lightblue;
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   background-color: white;
 }
 
 @media screen and (min-width: 828px) {
    body {
-      border: 0px;
-      margin: 0px;
-      padding: 0px;
-      width: 100%;
-      background-color: white;
+      margin: 60px auto;
+      margin-top: 0px;
+      padding-top: 0px;
+      width: 70%;
+      background-color: lightblue;
    }
 
    .page {
