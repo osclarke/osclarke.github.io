@@ -1,12 +1,25 @@
-* box sizing {
-   box-sizing: border-box;
-   color: blue;
-   font-family: "Times New Roman", Times, serif;
-}
-
 @viewport {
    width: device-width;
    zoom: 1.0;
+}
+
+@font-face {
+   font-family: crimson;
+   src: url(/assets/Fonts/Crimson_Text/CrimsonText-Regular.ttf);
+   font-family: trebuchetms;
+   src: url(/assets/Fonts/Trebuchet_MS/TrebuchetMS.ttf);
+   font-family: gulim;
+   src: url(/assets/Fonts/Gulim/Gulim.ttf);
+}
+
+* box sizing {
+   box-sizing: border-box;
+   color: blue;
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
 }
 
 a {
@@ -27,16 +40,11 @@ div {
 }
 
 body {
-   margin: 60px auto;
-   margin-top: 0px;
-   padding-top: 0px;
-   width: 70%;
-   background-color: lightblue;
+   font-family: crimson;
 }
 
 .page {
-   background-color: white;
-   padding: 5em;
+   background-color: rgb(106,146,120);
    min-height: 100vh;
 }
 
@@ -46,11 +54,11 @@ body {
 }*/
 
 .header h1 {
-   font-family: sans-serif;
+   font-family: trebuchetms;
    text-transform: uppercase;
    /* text-align: left;
    line-height: 50vh; */
-   font-size: 3.5em;
+   font-size: 4em;
 }
 
 .nav {
