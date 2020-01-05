@@ -14,10 +14,6 @@ a {
    color: green;
 }
 
-.header h1 {
-   font-size: 3.5em;
-}
-
 a:visited {
    color: brown;
 }
@@ -44,8 +40,17 @@ body {
    min-height: 100vh;
 }
 
-.header {
-   text-align: center;
+/* .header {
+   height: 100vh;
+
+}*/
+
+.header h1 {
+   font-family: sans-serif;
+   text-transform: uppercase;
+   /* text-align: left;
+   line-height: 50vh; */
+   font-size: 3.5em;
 }
 
 .nav {
