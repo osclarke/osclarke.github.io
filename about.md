@@ -1,5 +1,6 @@
 ---
 title: about
+layout: default
 ---
 
 # Owen Clarke
@@ -7,7 +8,7 @@ title: about
    * phone: (+1 610-314-9400)
 
 ### Education:
-   Junior at Downingtown STEM Academy (Current Class of 2021)  
+   Junior at Downingtown STEM Academy (Current Class of 2021)
    * 4.2 GPA
    * Courses: HL IB Chemistry, Math (calculus), German
 

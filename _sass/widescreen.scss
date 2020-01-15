@@ -1,0 +1,174 @@
+@viewport {
+   width: device-width;
+   zoom: 1.0;
+}
+
+@font-face {
+    font-family: crimson;
+    src: url(/assets/Fonts/Crimson_Text/CrimsonText-Regular.ttf);
+    font-family: trebuchetms;
+    src: url(/assets/Fonts/Trebuchet_MS/TrebuchetMS.ttf);
+    font-family: gulim;
+    src: url(/assets/Fonts/Gulim/Gulim.ttf);
+ }
+
+* box sizing {
+   box-sizing: border-box;
+   color: blue;
+}
+
+* {
+   /*padding: 0px;
+   margin: 0px;*/
+}
+
+a {
+   text-decoration: none;
+   color: rgb(106,146,120);
+}
+
+a:visited {
+   color: black;
+}
+
+a:hover {
+   color: rgb(106,178,120);
+}
+
+h1, h2, h3 {
+   font-family: trebuchetms;
+}
+
+div {
+   clear: left;
+}
+
+body {
+   font-family: crimson;
+   padding: 0px;
+   margin: 0px;
+
+}
+
+.page {
+   background-color: white;
+   padding: 0px;
+   margin: 0px;
+   font-family: gulim;
+   min-height: 100vh;
+}
+
+.bannersection {
+   position: relative;
+   display: table;
+   width: 100%;
+   /* rgb(106,146,120); */
+   background-color: white;
+   height: 100vh;
+   margin: 0px;
+}
+
+.bannercontent {
+   display: table-cell;
+   vertical-align: middle;
+   color: rgb(106,146,120);
+   text-align: left;
+   padding: 10%;
+}
+
+.title {
+   text-transform: uppercase;
+   font-family: trebuchetms;
+   font-size: 4rem;
+}
+
+.header {
+   display: none;
+   text-transform: uppercase;
+   font-family: trebuchetms;
+   font-size: 1rem;
+   color: lightblue;
+   padding-top: 2%;
+}
+
+.wrapper {
+   padding-left: 10%;
+   padding-right: 10%;
+   vertical-align: middle;
+}
+
+.wrapper .nav {
+   padding-top: 2%;
+   padding-bottom: 2%;
+
+}
+
+.wrapper .nav nav {
+   float: left;
+}
+
+.wrapper .nav footer {
+   float: right;
+}
+
+.wrapper .nav footer ul {
+   padding: 0px;
+   margin: 0px;
+}
+
+.wrapper .nav footer ul li {
+   vertical-align: middle;
+   display: inline-block;
+   list-style: none;
+   padding-right: 3vh;
+   margin: 0px;
+}
+
+.wrapper .nav footer ul li .icon {
+   max-width: 4vh;
+   max-height: auto;
+}
+
+.nav nav {
+   color: rgb(106,146,120);
+   font-family: gulim;
+   font-size: 2rem;
+   text-transform: lowercase;
+   /* margin-bottom: 30%;*/
+}
+
+.nav a.current {
+   color: green;
+}
+
+.footer {
+   position: relative;
+   top: 26vh;
+}
+
+.footer footer ul {
+   padding: 0px;
+   margin: 0px;
+}
+
+.footer footer ul li {
+   vertical-align: middle;
+   display: inline-block;
+   list-style: none;
+   padding: 3vh;
+   margin: 0px;
+}
+
+/* .icon:hover {
+   box-shadow: 10px 10px 5px grey;
+   border: none;
+   background-color: transparent;
+} */
+
+.icon {
+   max-width: 9vh;
+   max-height: auto;
+   border: none;
+   background-color: transparent;
+   /* height: 30%; */
+}
