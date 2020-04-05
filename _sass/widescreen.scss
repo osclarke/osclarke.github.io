@@ -12,163 +12,144 @@
     src: url(/assets/Fonts/Gulim/Gulim.ttf);
  }
 
-* box sizing {
-   box-sizing: border-box;
-   color: blue;
-}
-
 * {
-   /*padding: 0px;
-   margin: 0px;*/
-}
-
-a {
-   text-decoration: none;
-   color: rgb(106,146,120);
-}
-
-a:visited {
-   color: black;
-}
-
-a:hover {
-   color: rgb(106,178,120);
-}
-
-h1, h2, h3 {
-   font-family: trebuchetms;
-}
-
-div {
-   clear: left;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-   font-family: crimson;
-   padding: 0px;
-   margin: 0px;
-
+  margin: 0.5rem;
 }
 
+/* Splash Page Styles Widescreen */
+
+.splash_page {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto-fit;
+  grid-gap: .5rem;
+}
+
+.sp_one, .sp_two {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.sp_one {
+  grid-row: 1/11;
+}
+
+.sp_one > h1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.sp_one > div {
+  justify-self: center;
+}
+
+.sp_two {
+  grid-row: 1/12;
+  background-image: url("/uploads/IMG_3006.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+
+.sp_three {
+  grid-column: 1/2;
+  grid-row: 11/12;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.sp_three > a {
+  justify-self: center;
+  text-decoration: none;
+  color: green;
+}
+
+.sp_three > a:visited {
+  justify-self: center;
+  text-decoration: none;
+  color: green;
+}
+
+/* Other Pages */
 .page {
-   background-color: white;
-   padding: 0px;
-   margin: 0px;
-   font-family: gulim;
-   min-height: 100vh;
-}
-
-.bannersection {
-   position: relative;
-   display: table;
-   width: 100%;
-   /* rgb(106,146,120); */
-   background-color: white;
-   height: 100vh;
-   margin: 0px;
-}
-
-.bannercontent {
-   display: table-cell;
-   vertical-align: middle;
-   color: rgb(106,146,120);
-   text-align: left;
-   padding: 10%;
-}
-
-.title {
-   text-transform: uppercase;
-   font-family: trebuchetms;
-   font-size: 4rem;
-}
-
-.header {
-   display: none;
-   text-transform: uppercase;
-   font-family: trebuchetms;
-   font-size: 1rem;
-   color: lightblue;
-   padding-top: 2%;
+  margin: 0;
+  padding: 1em;
 }
 
 .wrapper {
-   padding-left: 10%;
-   padding-right: 10%;
-   vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(1em, 33);
+  grid-template-rows: repeat(1em, 27);
 }
 
-.wrapper .nav {
-   padding-top: 2%;
-   padding-bottom: 2%;
-
-}
-
-.wrapper .nav nav {
-   float: left;
-}
-
-.wrapper .nav footer {
-   float: right;
-}
-
-.wrapper .nav footer ul {
-   padding: 0px;
-   margin: 0px;
-}
-
-.wrapper .nav footer ul li {
-   vertical-align: middle;
-   display: inline-block;
-   list-style: none;
-   padding-right: 3vh;
-   margin: 0px;
-}
-
-.wrapper .nav footer ul li .icon {
-   max-width: 4vh;
-   max-height: auto;
-}
-
-.nav nav {
-   color: rgb(106,146,120);
-   font-family: gulim;
-   font-size: 2rem;
-   text-transform: lowercase;
-   /* margin-bottom: 30%;*/
-}
-
-.nav a.current {
-   color: green;
+.header {
+  grid-column: 1/10;
+  grid-row: 1/2;
 }
 
 .footer {
-   position: relative;
-   top: 26vh;
+  grid-column: 15/33;
+  grid-row: 1/3;
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
 }
 
-.footer footer ul {
-   padding: 0px;
-   margin: 0px;
+.Instagram {
+  justify-self: center;
+  grid-column: 1/2;
+  padding-right: 1em;
 }
 
-.footer footer ul li {
-   vertical-align: middle;
-   display: inline-block;
-   list-style: none;
-   padding: 3vh;
-   margin: 0px;
+.GitHub {
+  justify-self: center;
+  grid-column: 2/3;
+  padding-right: 1em;
 }
 
-/* .icon:hover {
-   box-shadow: 10px 10px 5px grey;
-   border: none;
-   background-color: transparent;
-} */
+.Mail {
+  justify-self: center;
+  grid-column: 3/4;
+}
 
-.icon {
-   max-width: 9vh;
-   max-height: auto;
-   border: none;
-   background-color: transparent;
-   /* height: 30%; */
+.nav {
+  grid-column: 10/15;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+}
+
+.Home {
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/2;
+}
+
+.About {
+  justify-self: center;
+  align-self: center;
+  grid-column:2/3;
+}
+
+.Blog {
+  justify-self: center;
+  align-self: center;
+  grid-column: 3/4;
+}
+
+.content {
+  grid-column: 10/15;
+  grid-row: 4/27;
 }

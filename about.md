@@ -3,8 +3,6 @@ title: About
 layout: default
 ---
 
-<img src="uploads/IMG_1028.jpg" alt="Me" style="zoom:25%;" />
-
 # Hello World!
 
 I have been wanting to make a website for quite some time now. However, the issue has always been: What do I put on It?

@@ -1,9 +1,6 @@
 - name: Instagram
   link: https://www.instagram.com/_owen.clarke/
-  icon: /assets/Icons/Instagram_Icon.png
 - name: GitHub
-  link: https://github.com/owenstewartc
-  icon: /assets/Icons/GitHub_Icon.png
+  link: https://github.com/osclarke/osclarke.github.io
 - name: Mail
   link: mailto:owen.stewart.c@gmail.com
-  icon: /assets/Icons/Mail_Icon.png

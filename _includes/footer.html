@@ -1,11 +1,6 @@
-<footer>
-   <ul>
-      {% for item in site.data.footer %}
-         <li>
-            <a href="{{ item.link }}">
-               <img src="{{ item.icon }}" alt="{{item.name}}" class="icon">
-            </a>
-         </li>
-      {% endfor %}
-   </ul>
-</footer>
+
+{% for item in site.data.footer %}
+  <a class="{{item.name}}" href="{{ item.link }}">
+    {{item.name}}
+  </a>
+{% endfor %}
